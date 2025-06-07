@@ -1,0 +1,9 @@
+<resources>
+    <string name="enable_webview_debugging">Aktifkan Debugging</string>
+    <string name="please_grant_root">Tolong berikan izin root!</string>
+    <string name="no_modules">Tidak ada modul WebUI!</string>
+    <string name="loading">Memuat …</string>
+    <string name="author">Pencipta: %s</string>
+    <string name="version">Versi: %s</string>
+    <string name="show_disabled">Tampilkan modul nonaktif</string>
+</resources>
