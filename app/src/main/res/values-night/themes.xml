@@ -1,4 +1,19 @@
-<resources>
-    <!-- Base application theme. -->
-    <style name="Theme.KernelSU.WebUI" parent="Theme.KsuWebUI" />
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night Mode application theme. -->
+    <style name="Theme.KsuWebUI" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorSurfaceVariant">@color/black</item>
+        <item name="colorSurfaceContainer">@color/black</item>
+        <item name="colorSurfaceContainerHigh">@color/black</item>
+        <item name="colorSurfaceContainerHighest">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="Theme.KernelSU.WebUI" parent="Theme.KsuWebUI">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
 </resources>
